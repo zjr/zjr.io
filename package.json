@@ -1,0 +1,20 @@
+{
+  "name": "zjr.io",
+  "version": "0.0.1",
+  "description": "Zach Rollyson website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Zachary J Rollyson",
+    "email": "me@zjr.io",
+    "url": "https://zjr.io"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "browserslist": "^4.21.5",
+    "lightningcss": "^1.20.0"
+  }
+}
