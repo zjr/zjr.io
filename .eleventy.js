@@ -3,6 +3,9 @@ const browserslist = require('browserslist');
 const { bundle, browserslistToTargets } = require('lightningcss');
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPassthroughCopy('_src/favicon.ico');
+	eleventyConfig.addPassthroughCopy('_src/_assets');
+
 	eleventyConfig.addTemplateFormats('css');
 
 	eleventyConfig.addExtension('css', {

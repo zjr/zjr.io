@@ -1,0 +1,131 @@
+:root {
+	--white: #fff;
+	--offWhite: #faf8f5;
+	--gray1: #4a5451;
+	--gray2: #252a29;
+	--black: #121514;
+	--red: #bf2647;
+	--code: #b0d0d0;
+
+	--mind: rgb(95, 109, 129);
+	--mature: rgb(52, 69, 77);
+	--lost: rgb(65, 113, 145);
+	--resurrection: rgb(115, 165, 165);
+
+	--primaryColor: rgb(236, 185, 103);
+	--accentColor: rgb(160, 136, 205);
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: EB Garamond, serif;
+	color: var(--mind);
+	margin: 0;
+}
+
+main {
+	padding: 40px;
+	max-width: 1290px;
+}
+
+/* maybe try in a light green pill */
+/*.greeting {*/
+/*	display: block;*/
+/*	font-size: 21px;*/
+/*	line-height: 1rem;*/
+/*	margin: 0 0 1rem;*/
+/*	!*font-style: italic;*!*/
+/*	display: none;*/
+/*}*/
+
+.title-line {
+	font-weight: 400;
+	font-size: 84px;
+	line-height: 5rem;
+	margin: 0 0 5rem;
+}
+
+.title-line span {
+	font-style: italic;
+	/*color: var(--accentColor);*/
+}
+
+a {
+	font-style: italic;
+	color: var(--resurrection);
+}
+
+.work-ode {
+	font-weight: 500;
+	font-size: 42px;
+	line-height: 3rem;
+	margin: 0 0 5rem;
+}
+
+.work-ode span {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+.contact {
+	font-size: 28px;
+	line-height: 2rem;
+	max-width: 60ch;
+	margin: 0 0 2rem;
+}
+
+@media (max-width: 1175px) {
+	main {
+		padding: 16px;
+		max-width: 793px;
+	}
+
+	.title-line {
+		font-size: 42px;
+		font-weight: 600;
+		line-height: 3rem;
+		margin-bottom: 4rem;
+	}
+
+	.work-ode {
+		font-size: 28px;
+		line-height: 1.75rem;
+		margin-bottom: 4rem;
+	}
+
+	.contact {
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 811px) {
+	main {
+		max-width: 600px;
+	}
+
+	.title-line {
+		font-size: 28px;
+		line-height: 2rem;
+		margin-bottom: 3rem;
+	}
+
+	.work-ode {
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 1.5rem;
+		margin-bottom: 3rem;
+	}
+
+	.work-ode span {
+		margin-bottom: 1rem;
+	}
+
+	.contact {
+		font-size: 18px;
+		line-height: 1.5rem;
+		margin-bottom: 1rem;
+	}
+}
