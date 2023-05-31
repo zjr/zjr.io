@@ -54,6 +54,10 @@ main {
 	/*color: var(--accentColor);*/
 }
 
+.title-line a:first-of-type {
+	position: relative;
+}
+
 a {
 	font-style: italic;
 	color: var(--resurrection);
