@@ -1,19 +1,19 @@
 :root {
-	--white: #fff;
-	--offWhite: #faf8f5;
-	--gray1: #4a5451;
-	--gray2: #252a29;
-	--black: #121514;
-	--red: #bf2647;
-	--code: #b0d0d0;
+	/*--white: #fff;*/
+	/*--offWhite: #faf8f5;*/
+	/*--gray1: #4a5451;*/
+	/*--gray2: #252a29;*/
+	/*--black: #121514;*/
+	/*--red: #bf2647;*/
+	/*--code: #b0d0d0;*/
 
 	--mind: rgb(95, 109, 129);
 	--mature: rgb(52, 69, 77);
 	--lost: rgb(65, 113, 145);
 	--resurrection: rgb(115, 165, 165);
 
-	--primaryColor: rgb(236, 185, 103);
-	--accentColor: rgb(160, 136, 205);
+	--gold: rgb(236, 185, 103);
+	--janeEyre: rgb(160, 136, 205);
 }
 
 html {
@@ -21,7 +21,8 @@ html {
 }
 
 body {
-	font-family: EB Garamond, serif;
+	font-family: 'EB Garamond', 'Baskerville', 'Baskerville Old Face',
+		'Hoefler Text', 'Times New Roman', serif;
 	color: var(--mind);
 	margin: 0;
 }
